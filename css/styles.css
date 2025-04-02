@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+.main-content {
+  height: 100vh;
+  display: flex;
+}
+
+.main-img {
+  height: 100vh;
+  width: 1120px;
+  background-image: url(../images/main-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0px 90px 90px 0px;
+  /* position: relative; */
+}
+
+h6 {
+  width: 104px;
+  height: 47px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+  color: #ffffff;
+  margin-top: 63px;
+  margin-left: 80px;
+}
+
+h2 {
+  width: 440px;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 100%;
+  color: #ffffff;
+  margin-top: 193px;
+  margin-left: 80px;
+}
+
+h2::first-line {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100px;
+}
+
+button {
+  width: 275px;
+  height: 100px;
+  margin-left: 80px;
+  margin-top: 43px;
+  font-weight: 700;
+  font-size: 36px;
+  background-color: #fc5710;
+  color: #ffffff;
+  border-radius: 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+.location-icon {
+  margin-top: 0px;
+  display: inline-block;
+  width: 250px;
+  height: 1000px;
+  border: 2px solid red;
+}
+
+.top-icn {
+  margin-top: 294px;
+  margin-right: 479px;
+}
+.bottom-icn {
+  margin-right: 280px;
+  margin-bottom: 194px;
+}
+
+.info-wrapper {
+  width: 870px;
+  height: 100vh;
+  border: 5px solid royalblue;
+}
